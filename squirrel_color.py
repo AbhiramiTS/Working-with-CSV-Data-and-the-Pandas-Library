@@ -32,5 +32,6 @@ data_dict = {
 }
 # print(data_dict)
 
+
 df = pandas.DataFrame(data_dict)
 df.to_csv('squirrel_count.csv')
